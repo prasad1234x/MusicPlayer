@@ -14,7 +14,7 @@
     "notActive": "❌ | **No Active Group Call!**",
     "notPlaying": "❌ | **Nothing Is Playing!**",
     "spotifyNotEnabled": "❌ | **Spotify Is Not Enabled!**",
-    "playing": "▶️ **[%s](%s)**\n⏱ **Duration:** `%s`\n\n🎧 Powered By  MUSIC FOREVER ❤️ ** \n\n **All Playlists - @Music_Forever_X**",
+    "playing": "▶️ **[%s](%s)**\n⏱ **Duration:** `%s`\n\n Powered By  MUSIC FOREVER  ** \n\n **All Playlists - @Music_Forever_X**",
     "paused": "⏸ | **Paused Stream!**",
     "resumed": "▶️ | **Resumed Stream!**",
     "muted": "🔇 | **Muted Stream!**",
