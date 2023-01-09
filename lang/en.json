@@ -1,7 +1,7 @@
 {
     "update": "🔄 | **Updating...**",
     "restart": "✅ | **Restarted!**",
-    "downloading": "🔄 | **Processing...**",
+    "downloading": "🔄 | **පොඩ්ඩක් ඉන්න හලෝ 🥱**",
     "errorMessage": "❌ | **An Error Occurred!**",
     "notAllowed": "❌ | **You're Not Allowed!**",
     "invalidFile": "❌ | **Invalid Command/File!**",
@@ -14,7 +14,7 @@
     "notActive": "❌ | **No Active Group Call!**",
     "notPlaying": "❌ | **Nothing Is Playing!**",
     "spotifyNotEnabled": "❌ | **Spotify Is Not Enabled!**",
-    "playing": "▶️ **[%s](%s)**\n⏱ **Duration:** `%s`\n💬 **Playing On:** `%s`\n🎧  **Requested By:** `%s`\n\n\n**Powered By @Music_Forever_X**",
+    "playing": "▶️ **[%s](%s)**\n⏱ **Duration:** `%s`\n💬 **Playing On:** `%s`\n**සිංදුවක් අහන්න Live එකට එන්න ලමයි❤️🙈**\n**Powered By @Music_Forever_X**",
     "paused": "⏸ | **Paused Stream!**",
     "resumed": "▶️ | **Resumed Stream!**",
     "muted": "🔇 | **Muted Stream!**",
