@@ -77,7 +77,7 @@ async def search(message: Message) -> Optional[Song]:
             lel = await message.reply_text("`Trying To Download...`")
             file = await reply.download(
                 progress=progress_bar,
-                progress_args=("Downloading...", lel, time.time()),
+                progress_args=("මේක Download වෙනකම් ඔයා තේ එකක් එහෙම බීලා එන්න 🤧", lel, time.time()),
             )
             await lel.delete()
             return Song(
@@ -139,7 +139,7 @@ async def progress_bar(current, total, ud_type, msg, start):
             "".join(["▰" for i in range(math.floor(percentage / 10))]),
             "".join(["▱" for i in range(10 - math.floor(percentage / 10))]),
         )
-        current_message = f"**Downloading...** `{round(percentage, 2)}%`\n`{progressbar}`\n**Done**: `{humanbytes(current)}` | **Total**: `{humanbytes(total)}`\n**Speed**: `{humanbytes(speed)}/s` | **ETA**: `{time_to_complete}`"
+        current_message = f"**මේක Download වෙනකම් ඔයා තේ එකක් එහෙම බීලා එන්න 🤧** `{round(percentage, 2)}%`\n`{progressbar}`\n**Done**: `{humanbytes(current)}` | **Total**: `{humanbytes(total)}`\n**Speed**: `{humanbytes(speed)}/s` | **ETA**: `{time_to_complete}`"
         if msg:
             try:
                 await msg.edit(text=current_message)
